@@ -1,0 +1,54 @@
+
+
+.container {
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  /* border: 1px solid black; */
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  padding: 10px;
+  color: #007bff;
+  /* border: 1px solid black; */
+  background-color: #f8fafd;
+  border-radius: 10px;
+  width: 30%;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  transition: box-shadow 0.3s ease; /* Smooth transition on hover */
+  /* height: 20%; */
+  /* background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; */
+}
+.cards:hover {
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); /* Shadow effect on hover */
+}
+
+.community{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  padding: 10px;
+  /* color: rgb(247, 4, 4); */
+  /* border: 1px solid black; */
+  background-color: #f8fafd;
+  border-radius: 10px;
+  width: 15%;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  transition: box-shadow 0.3s ease; /* Smooth transition on hover */
+}
+.community:hover {
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); /* Shadow effect on hover */
+}
+
+.community a:hover{
+  color: #007bff;
+  text-decoration: none;
+}

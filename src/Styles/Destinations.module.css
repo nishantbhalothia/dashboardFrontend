@@ -1,0 +1,48 @@
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    width: 100%;
+    margin-top: 20px;
+    overflow: scroll;
+}
+
+.container::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}  
+
+/* .cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 20em;
+    border: 1px solid black;
+} */
+
+.cards {
+    flex: 0 1 calc(22% - 20px); /* Adjust card width with margin */
+    margin: 10px; /* Add margin between cards */
+    height: 23em;
+    /* border: 1px solid black; */
+    position: relative;
+    border-radius: 15px;
+    /* overflow: hidden; */
+  }
+
+
+
+.star{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+
+}

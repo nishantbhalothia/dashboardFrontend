@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    background-color: #e7edf7;
+    padding: 20px; /* Add padding for spacing */
+    border-radius: 5px;
+    box-shadow:  4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .section {
+    margin-right: 20px;
+  }
+  
+  h1 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  a {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  a:hover {
+    color: #007bff;
+  }
+  
